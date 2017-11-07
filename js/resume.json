@@ -1,0 +1,82 @@
+{
+    "basics": {
+        "name": "Adriann Bracken",
+        "label": "Web Developer",
+        "logo": "http://via.placeholder.com/64x64",
+        "website": "http://www.abcdef.com",
+        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elementum imperdiet eros, et posuere enim tempor pretium. Nullam sit amet vestibulum velit. Nulla interdum dictum lorem sit amet hendrerit. Nulla facilisi. Phasellus eget sem mi. Integer facilisis, turpis quis aliquam tristique, nunc elit aliquam purus, a fringilla purus dolor quis velit. Integer lacinia commodo facilisis. In feugiat, neque et ultrices convallis, nunc nisi tincidunt nulla, vitae efficitur odio lectus eu purus. Sed aliquet libero quis vestibulum pellentesque.",
+        "contact": {
+            "email": "adriannbracken@gmail.com",
+            "phone": "(909)810-8106"
+        },
+        "location": {
+            "address": "4250 Jewell St 210",
+            "postalCode": "CA 92109",
+            "city": "San Diego",
+            "country": "US",
+            "state": "California"
+        },
+        "profiles": [{
+            "network": "LinkedIn",
+            "username": "adriannbracken",
+            "url": "http://linkedin.com/in/adriannbracken"
+        },
+        {
+            "network": "Twitter",
+            "username": "@adriann_bracken",
+            "url": "https://twitter.com/adriann_bracken"
+        }]
+    },
+    "projects": [{
+        "title": "To Do List",
+        "description": "A todo list built using HTML, CSS Flexbox, and JavaScript",
+        "liveUrl": "http://company.com",
+        "githubUrl": "http://www.github.com/",
+        "difficulty": 5,
+        "enjoyment": 4,
+        "learningValue": 5,
+        "skillsUsed": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+        "title": "To Do List",
+        "description": "A todo list built using HTML, CSS Flexbox, and JavaScript",
+        "liveUrl": "http://company.com",
+        "githubUrl": "http://www.github.com/",
+        "difficulty": 5,
+        "enjoyment": 4,
+        "learningValue": 5,
+        "skillsUsed": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+        "title": "To Do List",
+        "description": "A todo list built using HTML, CSS Flexbox, and JavaScript",
+        "liveUrl": "http://company.com",
+        "githubUrl": "http://www.github.com/",
+        "difficulty": 5,
+        "enjoyment": 4,
+        "learningValue": 5,
+        "skillsUsed": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+        "title": "To Do List",
+        "description": "A todo list built using HTML, CSS Flexbox, and JavaScript",
+        "liveUrl": "http://company.com",
+        "githubUrl": "http://www.github.com/",
+        "difficulty": 5,
+        "enjoyment": 4,
+        "learningValue": 5,
+        "skillsUsed": ["HTML", "CSS", "JavaScript"]
+    }
+    ],
+    "Skills": [{
+        "name": "Web Development",
+        "level": "Junior",
+        "keywords": [
+            "HTML",
+            "CSS",
+            "Flex",
+            "Javascript",
+            "JSON"
+        ]
+    }]
+}

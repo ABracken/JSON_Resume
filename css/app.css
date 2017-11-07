@@ -1,0 +1,64 @@
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.flex-page {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    flex-shrink: 1;
+    min-width:40%;
+    max-width: 40%;
+    min-height: 100%;
+    max-height: 100%;
+    
+}
+
+.display-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+    min-width:100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    word-wrap: break-word;
+}
+
+pre {
+    min-width:100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;
+}
+
+.flex-page-right {
+    flex-basis: 25%;
+    padding: .5em;
+}
+
+.flex-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.flex-button {
+align-self: center;
+}
+
+.button {
+    width: 10em;
+    height: 2em;
+    margin: .3em;
+}
