@@ -42,10 +42,20 @@ $.getJSON('js/resume.json', function (resumeJSON) {
             username.setAttribute('href', profiles[i].url);
 
             liHeader.appendChild(username);
-
-
             
             $(".profiles").append(liHeader);
+        }
+    });
+
+    $(".projects").html(function () {
+        for (i = 0; i < projects.length; i++) {
+
+            var li = document.createElement('li');
+
+            var
+  
+            
+            $(".projects").append();
         }
     });
 });
