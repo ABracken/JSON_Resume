@@ -20,41 +20,32 @@ $.getJSON('js/resume.json', function (resumeJSON) {
     $(".country").html(resumeJSON.basics.location.country);
     $(".state").html(resumeJSON.basics.location.state);
 
-    function makeProfiles() {
-        var profiles = resumeJSON.basics.profiles;
+    var profiles = resumeJSON.basics.profiles;
 
-        for (var i = 0; i < profiles.length; i++) {
+    $(".profiles").html(function () {
+        for (i = 0; i < profiles.length; i++) {
 
-            for (var key in profiles[i]) {
-                var profileObj = profiles[i];
+            var liHeader = document.createElement('li');
 
-                var value = profileObj[key];
+            var network = document.createElement("STRONG", { class: 'network' });
 
-                var liHeader = document.createElement('li');
+            network.appendChild(document.createTextNode(profiles[i].network));
 
-                var network = document.createElement("STRONG", { class: 'network' });
+            liHeader.appendChild(network);
 
-                network.appendChild(document.createTextNode(profileObj.network));
+            liHeader.appendChild(document.createElement("br"));
 
-                liHeader.appendChild(network);
-                
-                liHeader.appendChild(document.createElement("br"));
+            var username = document.createElement('a', { class: 'username' });
 
-                var username = document.createElement('a', { class: 'username' });
+            username.innerHTML = profiles[i].username;
 
-                username.innerHTML = profileObj.username;
+            username.setAttribute('href', profiles[i].url);
 
-                username.setAttribute('href', profileObj.url);
+            liHeader.appendChild(username);
 
-                liHeader.appendChild(username);
 
-                document.body.appendChild(liHeader);
-
-                return liHeader;
-
-            }
+            
+            $(".profiles").append(liHeader);
         }
-    }
-
-    $(".profiles").html(makeProfiles());
+    });
 });
